@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('luffy.jpg');
+
+    background-size: cover;
+
+}
+
+.app {
+    background-image: url('sea.jpg');
+    background-size: cover;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    margin-right: 650px;
+    margin-top: 150px;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+
+.app h1 {
+    font-size: 25px;
+    color: rgb(156, 4, 4);
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+   text-shadow: 5px 5px 10px yellow;
+
+}
+
+.quizz {
+    padding: 20px 0;
+
+}
+
+.quizz h2 {
+    font-size: 18px;
+    color: rgb(10, 0, 0);
+    font-weight: 600;
+    text-shadow: 5px 5px 10px yellow;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover :not([disabled]){
+    background-color: rgb(229, 231, 85);
+    color: rgb(161, 1, 1);
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next-btn {
+    background-color: rgb(187, 64, 27);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+
+}
+.correct{
+    background-color: rgb(125, 223, 174);
+}
+.incorrect{
+    background-color: rgb(172, 115, 115);
+}
