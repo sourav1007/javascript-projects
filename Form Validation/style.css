@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: rgb(2, 106, 138);
+
+
+
+}
+
+.form-container {
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 400px;
+    padding: 50px;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+.input {
+    height: 35px;
+    width: 350px;
+    margin: 5px;
+    border-radius: 10px;
+}
+#button{
+    background-color: rgb(112, 100, 185);
+    color: white;
+    height: 35px;
+    width: 100px;
+    border-radius:40px ;
+    
+}
+h1{
+    text-shadow: 10px 10px 15px;
+}
+.error{
+    text-align: left;
+    padding-left: 20px;
+    color: red;
+}
